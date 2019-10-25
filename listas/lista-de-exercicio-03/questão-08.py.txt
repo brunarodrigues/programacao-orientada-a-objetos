@@ -1,0 +1,9 @@
+produto1 = float(input('Digite o preço do primeiro produto: '))
+produto2 = float(input('Digite o preço do segundo produto: '))
+produto3 = float(input('Digite o preço do terceiro produto: '))
+if(produto1<produto2 and produto1<produto3):
+  print('Compre o primeiro produto  pois ele é o mais barato')
+elif(produto2<produto1 and produto2<produto3):
+  print('Compre o  segundo produto  pois ele é o mais barato')
+elif(produto3<produto1 and produto3<produto2):
+  print('Compre o terceiro produto  pois ele é o mais barato')
