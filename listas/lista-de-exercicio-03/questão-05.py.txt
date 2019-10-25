@@ -1,0 +1,9 @@
+nota_parcial_1 = float(input('Digite sua nota parcial 1: '))
+nota_parcial_2 = float(input('Digite sua nota parcial 2: '))
+media = (nota_parcial_1+nota_parcial_2)/2
+if(media>=7 and media<10):
+  print('Aprovado')
+elif(media<7):
+  print('Reprovado')
+elif(media==10):
+  print('Aprovado com distinção')
