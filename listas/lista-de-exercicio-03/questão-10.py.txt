@@ -1,0 +1,7 @@
+turno = input("Em que turno você estuda M (matutino), V (Vespertino)ou N(Noturno))? ")
+if(turno in 'mM'):
+  print('Bom dia!')
+elif(turno in 'vV'):
+  print('Boa tarde!')
+elif(turno in 'nN'):
+  print('Boa noite!')
