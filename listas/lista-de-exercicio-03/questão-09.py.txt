@@ -1,0 +1,17 @@
+primeiro_numero = float(input('Digite o primeiro número: '))
+segundo_numero = float(input('Digite o segundo número: '))
+terceiro_numero = float(input('Digite o terceiro número: '))
+if(primeiro_numero>segundo_numero>terceiro_numero):
+  print(primeiro_numero,segundo_numero,terceiro_numero)
+elif(segundo_numero>primeiro_numero>terceiro_numero):
+  print(segundo_numero,primeiro_numero,terceiro_numero)
+elif(terceiro_numero>primeiro_numero>segundo_numero):
+  print(terceiro_numero,primeiro_numero,segundo_numero)
+elif(segundo_numero>terceiro_numero>primeiro_numero):
+  print(segundo_numero,terceiro_numero,primeiro_numero)
+elif(primeiro_numero>terceiro_numero>segundo_numero):
+  print(primeiro_numero,terceiro_numero,segundo_numero)
+elif(terceiro_numero>segundo_numero>primeiro_numero):
+  print(terceiro_numero,segundo_numero,primeiro_numero)
+
+  
