@@ -1,0 +1,5 @@
+letra = input('Digite uma letra: ')
+if(letra in "aA,eE,iI,oO,uU,"):
+  print('Letra = Vogal')
+else:
+  print('Letra = Consoante')
