@@ -1,0 +1,14 @@
+primeiro_lado = float(input('Digite o primeiro_lado do triângulo: '))
+segundo_lado = float(input('Digite o segundo_lado do triângulo: '))
+terceiro_lado = float(input('Digite o terceiro_lado do triângulo: '))
+
+if(primeiro_lado+segundo_lado>terceiro_lado or primeiro_lado+terceiro_lado>segundo_lado or segundo_lado+terceiro_lado>primeiro_lado):
+  print('Formam um triângulo')
+if(primeiro_lado == segundo_lado == terceiro_lado):
+	print("Equilátero")
+elif(primeiro_lado == segundo_lado or segundo_lado == terceiro_lado or terceiro_lado == primeiro_lado):
+	print("Isósceles")
+elif(primeiro_lado != segundo_lado != terceiro_lado):
+  print("Escaleno")
+
+		
