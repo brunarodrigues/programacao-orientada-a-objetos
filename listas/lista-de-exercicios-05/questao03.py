@@ -1,11 +1,10 @@
-def soma(num1,num2,num3):
-    soma = (num1 + num2 + num3)
-    
-    return soma
-
-n1,n2,n3 = input('digite 3 numeros: ').split()
-n1 = int(n1)
-n2 = int(n2)
-n3 = int(n3)
-x = soma(n1,n2,n3)
-print('a soma entre {}, {}, {} = {}'.format(n1,n2,n3,x))
+def valor_compras(carne,arroz,feijao):
+ soma_precos = carne + arroz + feijao
+ return soma_precos
+ 
+ 
+compra1 = float(input('valor da carne : '))
+compra2 = float(input('valor do arroz : '))
+compra3 = float(input('valor do feijão : '))
+resultado = valor_compras(compra1,compra2,compra3)
+print(resultado)
